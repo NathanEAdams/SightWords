@@ -29,7 +29,7 @@ public class OpenWorkbook {
                 System.out.println(
                         "openworkbook.xlsx file open successfully.");
             } else {
-                System.out.println("Error to open openworkbook.xlsx file.");
+                System.out.println("Error when opening openworkbook.xlsx file.");
             }
             XSSFSheet spreadsheet = workbook.getSheetAt(0);
             for (Row row : spreadsheet) {
